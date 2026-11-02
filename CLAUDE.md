@@ -62,21 +62,18 @@ Done:
 - Project created with logo, icons, splash and app names on all platforms
 - Firestore data model and rules written; 18 rules tests pass on the emulator
 - Connected to `swapvia-5a67e` in `.firebaserc`; first commit made under
-  Lawrence's real name and email
+  Lawrence's real name and email; pushed to `Lawsoft2029/Swapvia`
 
 Not verified or not done:
-- GitHub repo was created as `-Swapvia` by mistake and must be renamed to
-  `Swapvia`; nothing has been pushed yet
 - Blaze plan and budget alert not confirmed
 - Rules not deployed; icons not checked on a real device; no platform build yet
 - The app is still the default Flutter starter screen
 
 ## Next steps
 
-1. Push to GitHub after the rename
-2. Cloud Functions for send, swap and withdraw, then payment webhooks
-3. Design system (colours, type, spacing, light and dark)
-4. Move Lawrence's Pay Me screens across one by one, testing on the emulator
-5. Rewrite sign-in, PIN and biometrics, then KYC, notifications, settings and a
+1. Cloud Functions for send, swap and withdraw, then payment webhooks
+2. Design system (colours, type, spacing, light and dark)
+3. Move Lawrence's Pay Me screens across one by one, testing on the emulator
+4. Rewrite sign-in, PIN and biometrics, then KYC, notifications, settings and a
    small admin panel
-6. Tests for the money logic, plus a README with screenshots
+5. Tests for the money logic, plus a README with screenshots

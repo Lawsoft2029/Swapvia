@@ -49,6 +49,8 @@ app.*.map.json
 
 # Rules tests and Firebase
 rules_test/node_modules/
+functions/node_modules/
+functions/.secret.local
 *.log
 .firebase/
 .env

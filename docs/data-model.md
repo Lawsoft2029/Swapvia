@@ -13,6 +13,12 @@ decimal places for crypto), so totals have no floating-point rounding errors.
 | `rates` | pair, such as `USDT_NGN` | `rate`, `source`, `updatedAt` | Signed-in users read |
 | `processedPayments` | provider and payment ID | `processedAt` | None |
 
+For `*_USD` pairs in `rates`, `rate` is US cents per coin. `*_NGN` pairs are kobo per
+coin. Ledger IDs are `{uid}_{idempotencyKey}`, so a repeated request finds the
+earlier entry. For receipts, ledger entries also hold `fee`, `balanceAfter` and,
+where relevant, `counterparty`, `note`, `from`, `to`, `amountIn` and `amountOut`.
+`users` also holds `username`, written only by the `claimUsername` function.
+
 ## Money rules
 
 - Only Cloud Functions change `wallets` and `ledger`.

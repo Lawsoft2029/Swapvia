@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "546018727134",
+    "project_id": "swapvia-5a67e",
+    "storage_bucket": "swapvia-5a67e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546018727134:android:a7447502295d491d57de4f",
+        "android_client_info": {
+          "package_name": "com.lawsoft.swapvia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtU25pu_R2iPAaRhPqsyMFj0M-m-oyvlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
